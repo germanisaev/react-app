@@ -1,0 +1,70 @@
+@media all and (min-width: 480px) {
+    .Login, .Register {
+      padding: 60px 0;
+    }
+  
+    .Login form, .Register form {
+      margin: 15px auto;
+      max-width: 320px;
+    }
+
+    .Login form button {
+      margin-top: 15px;
+    }
+}
+
+
+body {
+  background-color: #eee;
+}
+
+form {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 6px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+form input.error {
+  border-color: red;
+}
+
+form span.error {
+  color: red;
+}
+
+.hidden {
+  display: none;
+}
+
+form button {
+  display: block;
+  width: 100%;
+  appearance: none;
+  border-radius: 5px;
+  background-color: #84c00c;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  height: 40px;
+  margin-top: 30px;
+}
+
+form button:hover {
+  background-color: #669509;
+}
+
+form button:disabled {
+  background-color: #dbf99f;
+  color: #333;
+}

@@ -1,0 +1,12 @@
+
+
+tr td span {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.UpdateForm form {
+    margin: 15px auto;
+    max-width: 320px;
+}
+
